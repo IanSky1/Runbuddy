@@ -51,7 +51,7 @@ footer h2 {
     display: inline;
     color: #024e76;
     font-size: 30px;
-    MARGIN: 0;
+    margin: 0;
 }
 
 footer div {
@@ -87,7 +87,7 @@ section {
     right: 140px;
 }
 
-.hero-form h3{
+.hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
@@ -196,7 +196,7 @@ section {
 .trainer-bio {
     padding: 35px;
     float: left;
-    width: 65px;
+    width: 65%;
 }
 
 .text-left {
