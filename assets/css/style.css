@@ -85,6 +85,21 @@ section {
     flex-wrap: wrap;
 }
 
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138
+}
+
 .hero-form {
     border: solid 3px #024e76;
     background-color: #fce138;
@@ -125,19 +140,6 @@ section {
     font-size: 16px;
 }
 
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.steps {
-    background: #fce138;
-}
-
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -154,17 +156,6 @@ section {
 
 .secondary-border {
     border-color: #39a6b2;
-}
-
-.step h3 {
-    color: #024e76;
-    font-size: 46px;
-    flex: 1 30%;
-}
-
-.step-text p {
-    color: #39a6b2;
-    font-size: 18px;
 }
 
 .trainers {
@@ -189,18 +180,6 @@ section {
 .trainer-bio {
     padding: 25px;
     line-height: 1.3;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.flex-row {
-    display: flex;
 }
 
 .trainer-bio h3 {
@@ -281,25 +260,17 @@ section {
     font-size: 16px;
 }
 
-.hero-cta {
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.3;
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.hero-cta h2 {
-    font-style: italic;
-    font-size: 55px;
-    color: #fce138
-}
-
-.step-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: #024e76;
+.steps {
+    background: #fce138;
 }
 
 .step {
@@ -311,6 +282,12 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
 }
 
 .step-info {
@@ -325,10 +302,33 @@ section {
     margin-right: 20px;
 }
 
+.step-img img {
+    max-width: 100%;
+}
+
 .step-text {
     flex: 12;
 }
 
-.step-img img {
-    max-width: 100%;
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
