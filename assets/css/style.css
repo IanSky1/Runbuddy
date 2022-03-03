@@ -176,7 +176,7 @@ section {
 }
 
 .trainer {
-    margin: 0 auto 20px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
     flex: 1;
@@ -253,6 +253,11 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
 }
 
 .contact-form input, .contact-form textarea {
